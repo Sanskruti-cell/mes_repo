@@ -1,0 +1,7 @@
+ORG 0000H 
+MOV A, #10;  
+MOV B, #100;  
+MUL AB;  
+ADD A, #08;  
+HERE: SJMP HERE 
+END
